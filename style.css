@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.invoice_container{
+    background: rgb(228, 227, 241); 
+    color: #000;
+    border:0.5px solid rgb(230, 218, 218) ;
+    width: 100%;
+    padding: 10px;
+    
+    
+}
+.text{
+   /* margin-bottom: 12rem; */
+    font-size: 2rem;
+}
+.company_address{
+    margin-right: 1rem;
+}
+.company_address em{
+    color: rgb(21, 85, 146);
+}
+.logo_container img{
+    margin-bottom: 3rem;
+    width: 30%;
+    height: 5%;
+}
+.logo_container{
+    margin-top: auto;
+}
+.invoice_header{
+    /* margin-bottom: 7rem; */
+display: flex;
+justify-content: space-between;
+width: 100%;
+line-height: 1.5rem;
+}
+.customer_container{
+    margin-top: 0.7rem;
+    line-height: 1.5rem;
+    border-style: solid ;
+    border-width: 0.5pt;
+    border-radius: 5pt;
+    border-color: rgb(128, 126, 126) ;
+    width: 200pt;
+}
+.billing{
+    float: left;
+}
+.invoice{
+    float: right;
+}
+.billing_to{
+    /* display: inline-block; */
+    /* width: 10vw; */
+    /* margin-top: 2rem; */
+    border-radius: 4pt;
+    color: #000;
+    background-color: rgb(85, 152, 214);
+    padding: 7px;
+}
+.billing_content{
+
+    margin: 10pt;
+}
+.customer_container h3{
+    margin-left: -2px;
+    
+
+}
+.invoice_details{
+    /* background-color: #333; */
+    display: flex;
+     float: right;
+     height: 2vh;
+     font-size: 12px;
+    margin-right: 0.8rem ;
+    margin-top: -2rem;
+}
+.all{
+    display: flex;
+
+    
+}
+section.kings_table{
+    margin-top: 12rem;
+}
+table{
+    /* border: 1px solid black; */
+
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 4rem;
+    height: 35vh;
+}
+th{
+   text-align: left;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 12px;
+   color: #fff;
+   background-color: rgb(21, 85, 146);
+
+}
+
+td{
+    padding: 12px;
+}
+
+.table1 tr:nth-child(even){
+    background-color:  rgb(188, 197, 206) ;
+}
+.table1 tr:nth-child(odd){
+    background-color: #f5deb3;
+    /* background-color: #fff; */
+}
+.table1 tr:hover{
+    color: rgb(96, 96, 96);
+    background-color: #ffaf7a;
+    letter-spacing: 2px;
+}
+.table2{
+    background-color: #fff;
+    justify-content: center;
+
+}
+#table2 tr{
+    text-transform: uppercase;
+    text-align: right;
+}
+td strong{
+    text-transform: uppercase;
+}
+hr{
+    position: absolute;
+    margin-top: 2.4rem;
+    border: 0.2px solid #f5deb3;
+    width: 90%;
+    margin-left: 4rem;
+    /* float: right; */
+}
+div.border{
+    position: absolute;
+    margin-top: 13rem;
+    border: 2px solid black;
+    margin-left: 3.2rem;
+    width: 90vw;
+
+    
+}
+div.bottom{
+    position: absolute;
+    margin-top: 16rem;
+    border: 2px solid #ffaf7a;
+    margin-left: 50.5rem;
+    width: 35vw;   
+}
+footer li{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: inline-flex;
+    
+}
+footer h4{
+    text-align: center;
+    font-style: italic;
+}
+span#emoji{
+    color: #ff000f;
+}
+
